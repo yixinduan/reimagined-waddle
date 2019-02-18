@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+ <meta name="apple-mobile-web-app-capable" content="yes" />
+ <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <meta name="format-detection" content="telephone=no" />
+ <meta name="format-detection" content="email=no"/>
+<title>注册页</title>
+<link href="zc.css" rel="stylesheet" type="text/css">
+	<script src="../js/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="big">
+<div id="head"><a href="../denglu/denglu.html"><svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3169" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><defs><style type="text/css"><![CDATA[
+
+]]></style></defs><path d="M629.376 160 330.624 467.968 330.624 467.968 288 512 330.624 555.968 330.688 555.968 629.376 863.936 672 819.968 373.312 512 672 204.032Z" p-id="3170"/></svg></a><p>用户注册</p></div>
+
+<div id="zhanghu">
+<form name="df" id="df" action="doUserReg1.php" method="post">
+
+<label for="user" style="margin-left:3%; line-height:3rem">用户名</label>
+			<input type="text" id="user" name="uname" pattern="\w{6,18}"placeholder="请输入您的用户名：" list="dh" autofocus class="cs">
+			<datalist id="dh">
+				<option>duan</option>
+			
+			</datalist>
+            </div>
+<div id="mima"><label for="mm" style="margin-left:3%; line-height:3rem">密码</label>
+			<input type="text" name="password" id="mm" pattern="\w{6}"placeholder="请输入您的密码："class="cs">
+            </div>
+<div id="shouji"><label for="br" style="margin-left:3%; line-height:3rem">手机号</label>
+			<input type="text" name="number" id="br"placeholder="请输入您的手机号：" pattern="\w{11}" class="cs">
+</div>
+<div id="youjian"><label for="em" style="margin-left:3%; line-height:3rem">电子邮件</label>
+			<input type="email" name="mail" id="em"placeholder="请输入您的电子邮件：" required class="cs">
+            </div>
+
+<div id="dianji"><input type="submit" value="提交" id="lala" onclick="register()">
+    </div>
+	
+	
+	
+	<script>
+	//测试注册
+function register() {
+    var u_user1 = document.getElementById("user").value;
+    var u_password1 = document.getElementById("mm").value;
+    if((u_user1 == "dyx") && (u_password1 == "dyx123")) {
+        alert("注册成功！返回登录页面！");
+        location.href="../denglu/denglu.html"";
+    } else {
+        alert("注册失败，返回登录页面！");
+        location.href = "zhuce.html";
+    }
+}
+	</script>
+</body>
+</html>

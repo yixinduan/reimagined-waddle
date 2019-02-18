@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,header,footer,div,span,p,img,a,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,i,,u,del,menu,nav,fieldset,article,aside,details,figcaption,hgroup,pre,code,from,,th,td,tr,hr,table,img,figure,button,input,{padding:0;margin:0;}
+body{ background: #f2f2f2;padding: 0;min-width: 300px;margin: 0 auto;}
+img{vertical-align:middle;border:0 none;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:inherit;}
+.clearfix{zoom;1}
+.clearfix:after{visibilit:hidden; display:block; font-size:14px; content:""; clear:both; height:0;}
+.big{ max-width:660px; min-width:320px; border:1px solid #FFF; height:900px; margin:0 auto; }
+#head{ width:100%; background-color:#FFF;margin:0;  border-bottom:1px solid #CCC; margin-top:0px; padding:0; height:49px;}
+#head svg{ margin-left:0.5%; float:left; margin-top:8px;}
+#head p{ width:85%; font-size:18px; color:#000; line-height:2.6rem; text-align:center; float:left; margin-top:0; padding:0;}
+#kong{ width:2%; height:32px; margin-right:0.5%; float:right;  }
+#tuijian{ background:#fff; margin-top:2%; clear:both;}
+/*推荐*/
+.tui{ width:100%; clear:both;}
+.num{ float:left;}
+.nn{ margin-left:17%;}
+h5{padding:0; margin:0; float:right; font-size:14px; font-weight:normal; color:#999;margin-top:1%; padding-top:3%; padding-left:5%;  }
+.tab-title{
+	height:48px;
+	border-bottom:1px solid #999;
+	}
+.tab-title span{
+	width:50%;
+	height:48px;
+	float:left;
+	text-align:center;
+	line-height:33px;
+	font-size:14px;
+	letter-spacing:4px;
+	color:#000;
+	cursor:pointer;
+	}
+.tab-title span p{
+	line-height:48px;
+	font-size:16px;
+	 line-height:2rem;
+}
+.tab-content{
+	
+	clear:both;
+	}
+.tab-title .current{
+	background:#fff;
+	border-bottom:2px solid #00AFC7;
+	margin-top:0px;
+	font-weight:bold;
+	 color:#00AFC7;
+	}
+.none{
+	display:none;
+	}
+
+/*同城*/
+.cheng{ width:49%; float:left; background:#fff; margin-right:2%;}
+.cheng1{ width:49%; float:left; background:#fff; margin-top:2%; margin-right:2%;}
+.cheng2{ width:49%; float:left; background:#fff;}
+.cheng3{ width:49%; float:left; background:#fff; margin-top:2%;}
+.little img{width:100%;}
+.little p{font-size:14px; margin-left:2%; float:left; margin-top:1.5%;}
+.little h4{font-size:12px; color:#999; float:right; margin-right:2%;margin-top:2%;}
+.little svg{float:left;}
+.little span{ text-align:center;}
+.hezi{margin-top:9%;}
+.tong{ display:none; }
+#wuxian{ width:100%;   margin-top:20px; background-color:#FFF; clear:both; border-bottom:7px  solid #f5f5f5;}
+
+#wx{ width:100%;  }
+#wx img{ width:60px; float:left; margin-left:3%; margin-top:8px;border:2px solid;
+border-radius:50%; height:60px;
+}
+#wx p{ font-size:14px; color:#000; margin-left:2%; width:30%; float:left; margin-top:30px;}
+#wx h1{ font-size:13px; float:right; font-weight:normal; color:#999; width:30%; margin-top:3px; margin-right:2%; margin-top:30px; }
+
+.liebiao{ width:100%; clear:both; margin-top:7px; }
+.y{ width:31%; float:left; margin-top:10px; margin-left:2%;}
+.y img{ width:90%;}
+#miaoshu{ width:96%; margin-left:2%; clear:both; } 
+#miaoshu p{ font-size:14px; text-align:center;  line-height:1.8rem; }
+.zuobiao{ width:96%; margin-left:2%; margin-top:25px; border-top:1px solid #CCC; background-color:#FFF; height:30px; }
+.zuobiao p{ font-size:12px; color:#00afc7;  line-height:2rem;  margin-left:2%; float:left; width:50%;}
+.zuobiao h1{ font-size:12px; float:right; margin-right:2%; font-weight:normal;  line-height:2rem; color:#999;}
+#wxian{ width:100%;   margin-top:15px; background-color:#FFF;}
+#jd{ margin-top:20px;}
+
+#ren{ width:95%; margin-top:25px;  clear:both; margin:0 auto; }
+.i{ border-bottom:none;}
+#jd{ width:100%; }
+#jd ul{ width:100%; margin:0; margin-left:-30px;}
+#jd li{ width:90%;  clear:both; border-bottom:1px solid #CCC; }
+#jd img{ width:40%; float:left;  margin-top:10px; padding-bottom:10px; }
+#jd li:nth-child(1){border-bottom:none; }
+#jd h3{   font-size:14px; color:#000 ; margin-top:10px; width:55%; margin-left:3%; float:left; font-weight:normal;}
+#jd p{  font-size:12px; color:#666; margin-top:0px;  width:50%; float:left;margin-left:3%;}
+#jd h1{ font-size:12px; color: #00afc7; height:15px; width:20%; float:right; margin-left:3%; font-weight:normal; float:left; }
+#jd  h2{  font-size:12px; color: #00afc7; height:15px; width:10%; float:right; margin-right:2%; font-weight:normal;  }

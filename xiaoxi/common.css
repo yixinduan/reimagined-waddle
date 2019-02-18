@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,header,footer,div,span,p,img,a,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,i,,u,del,menu,nav,fieldset,article,aside,details,figcaption,hgroup,pre,code,from,,th,td,tr,hr,table,img,figure,button,input,{padding:0;margin:0;}
+body{ background: #f2f2f2;padding: 0;margin: 0 auto;}
+img{vertical-align:middle;border:0 none;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:inherit;}
+h3{padding:0;margin:0;}
+
+em,i{font-style:normal;}
+
+button,input{border:0 none;}
+u,del{text-decoration:none;}
+.clearfix{zoom;1}
+.clearfix:after{visibilit:hidden; display:block; font-size:14px; content:""; clear:both; height:0;}
+.you{margin-left: 15%;}
+.h{padding: 0;margin: 0;margin-left: 3%;margin-bottom: 5%;color: #808080;}
+
+
+
+
+
+
+
+
+
+
+
+#big{ min-width:320px; max-width:660px; width:100%; padding:0; margin:0 auto;}
+#head{ width:100%; background-color:#FFF;margin:0;  border-bottom:1px solid #CCC; }
+#head svg{ margin-left:0.5%; float:left; margin-top:6px;}
+#head p{ width:91%; font-size:18px; color:#000; line-height:3.2rem; text-align:center; margin:0;}
+#xiaoxi{ width:100%;   clear:both; background-color:#FFF;}
+#jd ul{ margin:0; width:100%;}
+#jd{ width:100%;   clear:both;  }
+#jd li{ margin:0; width:90%; border-bottom:1px solid #CCC; margin-left:-10px; clear:both;}
+#jd img.b{ float:left; width:50px; height:50px; border-radius:50%; margin-top:15px; margin-left:-12px; }
+#jd h3{ font-size:16px; color:#000; line-height:2rem; margin-left:3%;width:37%; padding-top:8px;  }
+#xiao{ width:90%; height:80px; clear:both; margin-left:7%;} 
+#z{width:60%; margin:0; height:50px; float:left;}
+#jd h4{ font-size:14px; color:##333; width:100%; height:15px; margin-left:12%; margin-top:-10px; font-weight:normal; clear:both;  }
+#jd h1{ font-size:13px; color:#CCC; height:15px; margin-left:12%;  font-weight:normal; float:left;}
+#jd h2{ font-size:13px; color:#CCC; height:15px; margin-left:12%; font-weight:normal; float:left;}
+#xiao img{ width:25%; float:right; margin-top:-20px; margin-right:2%;}
+.a img{ width:100%; }
+#footer{ width:100%; background-color:#333333; height:50px; position:fixed; bottom:0; min-width:320px; max-width:660px;}
+.xuan{ width:20%; float:left; text-align:center; margin-top:-1.5px;}
+.xuan1{ width:20%; float:left; text-align:center; margin-top:-1.5px;}
+
+.xuan svg{  margin-top:3px;}
+.two{ font-size:12px; color:#ff2d4b; text-align:center; margin-top:-1.5px;}
+.tw{ font-size:12px; color:#00afc7; text-align:center; margin-top:-1.5px;}
+/*SVG*/
+.one {color:#666; font-size:12px; text-align:center; margin-top:-1.5px;}
+.circle_style{ position:fixed;bottom:55px; margin:0 auto; width:60px; color:#FFF; height:30px; border-top:1px solid #ddd; text-align:center; line-height:30px; display:block; background:#ffffff; border-radius:30px 30px 0px 0px; margin-left:41.3%;}
+#top svg { margin-top:-0.9rem;}
+#down{ margin-top:-0.3rem;}
+.gg{ display:none; position:fixed; top:400px; background-color:#FFF; opacity:0.8; width:100%; height:100%;}
+.dong{ width:50%; float:left; text-align:center; margin-top:15px;}
+.qt{  width:50%; float:left;text-align:center;  margin-top:15px; }
+.del{ width:10%; float:right;}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body,header,footer,div,span,p,img,a,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,i,,u,del,menu,nav,fieldset,article,aside,details,figcaption,hgroup,pre,code,from,,th,td,tr,hr,table,img,figure,button,input,{padding:0;margin:0;}
+body{background-color:#F5F5F5;font-size:14px; padding: 0;min-width: 320px; max-width: 660px;margin: 0 auto;}
+img{vertical-align:middle;border:0 none;}
+li,ul{list-style:none;}
+a{text-decoration:none;color:inherit;}
+section{display:block;margin:0 auto;}
+header,footer{margin:0 auto;width:100%; padding:0;}
+em,i{font-style:normal;}
+html,body{width:100%;height:100%;}
+button,input{border:0 none;}
+u,del{text-decoration:none;}
+h1,ul,p{padding:0; margin:0;}
+h4{padding:0; margin:0; font-weight:100;}
+h3{padding:0; margin:0;}
+.top{width:100%; height:45px; border-bottom:1px solid #CCC; background:#FFF;}
+.top svg{margin-left:3%; float:left; margin-top:1%;}
+.top p{float:left; margin-left:25%; font-size:25px; font-weight:bold;color:#666;line-height:45px;}
+.main{background:#fff; border-bottom:1px solid #ccc; margin-top:2%;}
+.touxiang{float:left; margin:4%; clear:both;}
+.touxiang img{ border-radius:40px;}
+.touxiang1{float:left; margin-left:4%; clear:both;}
+.touxiang1 img{ border-radius:40px;}
+.pangbai1{float:left; margin-left:4%;}
+.pangbai1 p{font-size:12px; color:#000;}
+.pangbai{float:left; margin:7%;}
+.pangbai p{font-size:12px; color:#999; margin-top:3%;}
+.clear{clear:both;}
+.content li{margin:3%;}
+.tu img{margin:5%;}
+header{
+	background:#FFF none repeat scroll 0% 0%;
+	position:relative;
+	width:100%;
+	height:49px;
+	line-height:49px;
+	display:block;
+} 
+.left{
+	float:left;
+	margin-top:8px;
+	margin-left:0.5%;
+	}
+.left a{
+	display:inline-block;
+	min-width:36px;
+	text-align:center;
+	}
+.mid {
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	width:80%;
+	float:left;
+	}
+.mid p{ font-size:18px;}
+.right{
+	float:right;
+	margin-top:8px;
+	margin-right:5%;
+}
+.nav{
+	width:100%;
+	border-radius:5px;
+	border:1px solid #DDD;
+	background:#fff;
+	overflow:hidden;
+	margin-top:3%;
+	}
+.nav li{
+	border-bottom:1px solid #DDD;
+	padding:1rem 0px;
+	overflow:hidden;
+	}
+.nav li:last-child{
+	border-bottom:0px none;
+}
+.nav{
+	display:block;
+	overflow:hidden;
+	line-height:31px;
+	margin-bottom:5%;
+}
+.nav svg{
+	width:10%;
+	float:right;
+	margin-top:1%;
+}
+.nav span{
+	color:#000;
+	float:left;
+	margin:0px 1rem;
+	}
+.nav li em{
+	float:right;
+	font-style:normal;
+	color:#999;
+	margin-right:1%;
+	font-size:14px;
+	margin-top:-0.1rem;
+	}
+.kuang{ height:300px;}
+.name{
+	color:#999;
+	border:medium none;
+	margin-left:10%;
+	font-size:16px;
+	vertical-align:text-top;
+	height:50px;
+ }
+/*页脚*/
+#footer{ width:100%; background-color:#FFF; height:50px; position:fixed; bottom:0; min-width:320px; max-width:660px; z-index:999;}
+.xuan{ width:20%; float:left; text-align:center; cursor:pointer;}
+.xuan1{ width:20%; float:left; text-align:center;}
+#footera{ width:100%; background-color:#FFF; height:50px; position:fixed; bottom:0; min-width:320px; max-width:660px; border-top:1px solid #ddd; display:none; z-index:999;}
+.two{ font-size:14px; color:#666; text-align:center; }
+#hong{background-color:#F00; float:right; height:70px; width:40%;}
+.three{ line-height:50px;font-size:14px; color:#fff;}
+.threea{ line-height:40px;font-size:14px; color:#fff; cursor:pointer;}
+#honga{background-color:#F00; float:right; height:40px; width:20%; margin-top:0.8%; margin-right:2%;}
+.xuana{ width:50%; float:left; text-align:center; height:50px; border-left:1px solid #ddd;}
+.dan{height:50px; border-top:1px solid #ddd; line-height:50px; color:#999;}
+.num{ float:right;margin-right:2%; }
+.nn{ margin-right:4%; float:right;}
+.dan svg{ margin-top:15px; margin-left:5%; float:left;}
+.hua{color:#00afc7; width:30%; margin-left:3%; float:left;}
+.cheng1{ width:45%; float:left; margin-top:5%; margin-left:4%; background:#fff; border:1px solid #ddd; height:36%;}
+.cheng3{ width:45%; float:left;margin-top:5%;margin-left:3%; background:#fff; border:1px solid #ddd; height:36%;}
+.little img{width:100%;}
+.little p{font-size:14px; margin-left:2%; float:left; margin-top:1.5%;}
+.little h4{font-size:12px; color:#999; float:right; margin-right:2%;margin-top:2%;}
+.little svg{float:left;}
+.little span{ text-align:center;}
+.hezi{margin-top:5%;}
+#youlike{margin-top:2%; margin-bottom:101%; height:100%;}
+#youlike h3{ font-weight:100; margin-left:3%;}

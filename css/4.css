@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	background:#fff none repeat scroll 0% 0%;
+	width:100%;
+	height:49px;
+	line-height:49px;
+	display:block;
+	border-bottom:1px solid #ddd;
+	position:fixed;
+	top:0;
+	left:0;
+	}
+.left{
+	left:10px;
+	float:left;
+	margin-top:8px;	
+	}
+.left a{
+	display:inline-block;
+	min-width:36px;
+	text-align:center;
+	}
+.title{
+	color:#000;
+	font-weight:normal;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	font-size:18px;
+	}
+.right{
+	margin-right:2%;
+	float:right;
+	}
+.right a{
+	display:inline-block;
+	min-width:36px;
+	text-align:center;
+	font-size:16px;
+	color:#00afc7;
+	}
+.clearfix{ display:block;}
+.tab-title{
+	height:48px;
+	border-bottom:1px solid #999;
+	background:#fff;
+	margin-top:49px;
+	}
+.tab-title span{
+	width:50%;
+	height:48px;
+	float:left;
+	text-align:center;
+	line-height:33px;
+	font-size:14px;
+	letter-spacing:4px;
+	color:#000;
+	cursor:pointer;
+	}
+.tab-title span p{
+	line-height:48px;
+	font-size:16px;
+}
+.tab-content{
+	
+	clear:both;
+	}
+.tab-title .current{
+	background:#fff;
+	border-bottom:2px solid #00AFC7;
+	margin-top:0px;
+	font-weight:bold;
+	 color:#00AFC7;
+	}
+.none{
+	display:none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

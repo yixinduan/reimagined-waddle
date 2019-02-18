@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+a{text-decoration:none; color:#000;}
+body,h1,ul,li,p{list-style-type:none; padding:0; margin:0;}
+body{background:#F5F5F5; padding-bottom:54px; height:100%; min-width:320px;}
+.con{
+	max-width:720px;
+	margin:0 auto;
+	height:100%;
+}
+.big{ max-width:660px; min-width:320px; margin:0 auto; }
+.head{ width:100%; background-color:#FFF;margin:0;  border-bottom:1px solid #CCC; margin-top:0px; padding:0; height:49px;}
+.head svg{ margin-left:0.5%; float:left; margin-top:8px;}
+.head p{ width:85%; font-size:17px; color:#000; line-height:3rem; text-align:center; float:left; margin-top:0; padding:0;}
+.kong{ width:5%; height:32px; margin-right:0.5%; float:right;  }
+.hao{ margin:6%;}
+.wo{
+	background:#ff2d4b;
+	padding:20px 0 0;
+	height:176px;
+}
+.wo img{
+	border-radius:50%;
+	width:90px;
+	height:90px;
+	margin:0 auto;
+	display:block;
+}
+.demo{
+	margin-top:6%;
+}
+.wo p{
+	text-align:center;
+	line-height:5rem;
+}
+.wo p a{
+	background:#FD0307;
+	color:#fff;
+	border-radius:20px;
+	padding:5px 20px;
+	}
+	.wo svg{ width:3%;margin-left:6px;}
+.member{
+	width:100%;
+	margin:5px 0;
+	overflow:hidden;
+	border-radius:5px;
+	border:1px solid #DDD;
+	background:#fff;
+}
+.member li{
+	width:33%;
+	float:left;
+	border-right:1px solid #DDD;
+	text-align:center;
+	margin:2px 0;
+}
+.member li h2{
+	font-weight:normal;
+	color:#0FF;
+	}
+.member li:last-child{
+	border-right:0px none;
+}
+.member svg{
+	padding-top:15px;
+}
+.nav{
+	width:100%;
+	margin:10px 0;
+	border-radius:5px;
+	border:1px solid #DDD;
+	background:#fff;
+	overflow:hidden;
+	}
+.nav li{
+	border-bottom:1px solid #DDD;
+	padding:1rem 0px;
+	margin:0px 1rem;
+	overflow:hidden;
+	}
+.nav li:last-child{
+	border-bottom:0px none;
+}
+.nav{
+	display:block;
+	overflow:hidden;
+	line-height:31px;
+}
+.nav svg{
+	width:10%;
+	float:right;
+	margin-top:10px;
+}
+.nav span{
+	color:#000;
+	float:left;
+	margin-left:2%;
+	}
+.nav a{ 
+	margin-left:1%;}
+.nav li em{
+	float:right;
+	font-style:normal;
+	color:#999;
+	margin-right:1%;
+	font-size:14px;
+	}
+.bianhua{
+	width:42%;
+	float:left;
+	border-right:1px  solid #DDD;
+	border-bottom:none;
+}
+#bian{
+	border-right:none;
+}
+.nav1{
+	width:94%;
+	margin:10px 3%;
+	border-radius:5px;
+	border:1px solid #DDD;
+	background:#fff;
+	overflow:hidden;
+	}
+.nav1 li{
+	border-bottom:1px solid #DDD;
+	padding:1rem 0px;
+	margin:0px 1rem;
+	overflow:hidden;
+	}
+
+.nav1{
+	display:block;
+	overflow:hidden;
+	line-height:31px;
+}
+.nav1 svg{
+	width:10%;
+	float:right;
+	margin-top:1%;
+}
+.kkk{
+	width:60%;
+	float:left;
+	line-height:60px;
+	margin-left:4%;
+}
+.sss{
+	color:#000;
+	float:left;
+	margin-left:2%;
+	width:100%;
+	}
+.nav1 li em{
+	font-style:normal;
+	color:#999;
+	font-size:14px;
+	margin-left:2%;
+	}
+	.bbb{
+		float:left;
+		color:#0CF;
+		font-size:14px;
+		margin-left:2%;
+		width:30%;
+	}
+.footer{
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center;
+	overflow:hidden;
+	display:flex;
+}
+.footer li{
+	flex:1 1 0%;
+	float:none;}
+.footer a{
+	color:#999;
+	display:inline-block;
+	width:100%;
+	height:49px;
+	line-height:20px;
+}
+.one{
+	padding-top:2px;
+	line-height:1;
+	font-size:12px;
+	display:block;
+	overflow:hidden;
+}
+.footer svg{
+	margin:4px auto 0px;
+	display:block;
+	line-height:24px;
+}
+.foot{
+	background:#fff;
+	border-top:1px solid #DDD;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height:49px;
+	line-height:49px;
+	z-index:1010;
+	
+}
+.aaa a{
+	color:#0CF;
+}
+#footer{ width:100%; background-color:#333333; height:50px; position:fixed; bottom:0; min-width:320px; max-width:660px; margin:0 auto;}
+.xuan{ width:20%; float:left; text-align:center; margin-top:-1.5px;}
+.xuan1{ width:20%; float:left; text-align:center; margin-top:-1.5px;}
+
+.xuan svg{  margin-top:3px;}
+.two{ font-size:12px; color:#666; text-align:center; margin-top:-1.5px;}
+.twoo{ font-size:12px; color:#00afc7; text-align:center; margin-top:-1.5px;}
+/*SVG*/
+.one {color:#ff2d4b; font-size:12px; text-align:center; margin-top:-1.5px;}
+.circle_style{ position:fixed;bottom:55px; margin:0 auto; width:60px; color:#FFF; height:30px; border-top:1px solid #ddd; text-align:center; line-height:30px; display:block; background:#ffffff; border-radius:30px 30px 0px 0px; margin-left:41.3%;}
+#top svg { margin-top:-0.9rem;}
+#down{ margin-top:-0.3rem;}
+
+.gg{ display:none; position:fixed; top:400px; background-color:#FFF; opacity:0.8; width:100%; height:100%;}
+.dong{ width:50%; float:left; text-align:center; margin-top:15px;}
+.qt{  width:50%; float:left;text-align:center;  margin-top:15px; }
+.del{ width:10%; float:right;}
+
+

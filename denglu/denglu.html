@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+ <meta name="apple-mobile-web-app-capable" content="yes" />
+ <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <meta name="format-detection" content="telephone=no" />
+ <meta name="format-detection" content="email=no"/>
+ <title>登录页</title>
+ <link href="css.css" rel="stylesheet" type="text/css">
+<script src="../js/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="big">
+<div id="head"><a href="../wode/gerenzhongxin.html"><svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3169" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><defs><style type="text/css"><![CDATA[
+
+]]></style></defs><path d="M629.376 160 330.624 467.968 330.624 467.968 288 512 330.624 555.968 330.688 555.968 629.376 863.936 672 819.968 373.312 512 672 204.032Z" p-id="3170"/></svg></a><p>账号登录</p></div>
+<div id="zhanghu">
+<form id="yf" name="yf" onSubmit="return checkform()">
+ <p><label for="user" >账户</label>
+  	 <input type="text" placeholder="手机号/会员名/邮箱" name="user" id="user" style="width:75%" class="cs">
+     
+  </p></div>
+<div id="mima"><p><label for="pwd">密码</label>
+ <input type="password" placeholder="请输入密码" name="pwd" id="pwd" style="width:75%" class="cs">
+  </p></div></form>
+<div id="zhu"><div id="wang"><p>忘记密码</p></div><div id="mianfei"><p><a href="../zhuce/zhuce.html">免费注册</a></p></div></div>
+<div id="dianji">
+<input type="button" value="登录" onclick="login()" id="dian" />
+	</div>
+<div class="footer1">
+<p class="lianjie">
+<span>
+使用合作账号登录/注册</span>
+</p>
+<ul class="login_style1">
+<li>
+<a href="javascript:void(0)http://login.lexun.com/wxlogin/scanlogin.aspx?fw=http%3a%2f%2f1.lexun.com%2findex.aspx%3f_r%3d1742134183%26vs%3d2&amp;lxt=c792445&amp;cd=0&amp;vs=2&amp;_r=22477&amp;fw=http%3a%2f%2f1.lexun.com%2findex.aspx%3f_r%3d1742134183%26vs%3d2"><img src="http://login.lexun.com/login/touch/images/new_weixin_icon.png" alt=""/><p>
+微信登录</p>
+</a></li>
+<li>
+<a href="javascript:void(0)http://login.lexun.com/waplogin/qq/authorize.aspx?lxt=c792445&amp;cd=0&amp;vs=2&amp;_r=22477&amp;fw=http%3a%2f%2f1.lexun.com%2findex.aspx%3f_r%3d1742134183%26vs%3d2"><img src="http://login.lexun.com/login/touch/images/new_qq_icon.png" alt=""/><p>
+QQ登录</p>
+</a></li>
+<li>
+<a href="javascript:void(0)http://login.lexun.com/waplogin/sina/authorize.aspx?lxt=c792445&amp;cd=0&amp;vs=2&amp;_r=22477&amp;fw=http%3a%2f%2f1.lexun.com%2findex.aspx%3f_r%3d1742134183%26vs%3d2"><img src="http://login.lexun.com/login/touch/images/new_weibo_icon.png" alt=""/><p>
+微博登录</p>
+</a></li>
+</ul>
+</div>
+ 
+ </div>
+</div>
+	<script>
+		//测试登录
+function login() {
+    var u_user = document.getElementById("user").value;
+    var u_password = document.getElementById("pwd").value;
+    if((u_user == "段易欣") && (u_password == "dyx123")) {
+        alert("登录成功!");
+		location.href = "../wode/dengluhou.html";
+    } else {
+        alert("用户名或者密码错误，登录失败！");
+        location.href = "../denglu/denglu.html";
+    }
+}
+	</script>
+</body>
+</html>

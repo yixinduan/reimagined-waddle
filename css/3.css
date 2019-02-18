@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	background:#FFF none repeat scroll 0% 0%;
+	position:relative;
+	width:100%;
+	height:49px;
+	line-height:49px;
+	display:block;
+} 
+.left{
+	float:left;
+	margin-top:8px;
+	margin-left:0.5%;
+	}
+.left a{
+	display:inline-block;
+	min-width:36px;
+	text-align:center;
+	}
+.mid {
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	width:80%;
+	float:left;
+	}
+.mid p{ font-size:18px;}
+.right{
+	float:right;
+	margin-top:8px;
+	margin-right:5%;
+}
+
+.wxian1{ background:#fff;  margin-top:2%; border-bottom:1px solid #DDD;}
+.wx img{ width:10%; float:left; margin-left:3%; margin-top:8px; border-radius:35px; height:35px; clear:both;}
+.wx p{ font-size:14px; color:#000; margin-left:2%; width:30%; float:left; margin-top:10px;}
+.wx h4{ font-size:16px; font-weight:normal; color:#999;margin-top:1%; padding-top:3%; padding-left:5%; width:50%; float:left;}
+.num{ float:left;}
+.nn{ margin-left:17%;}
+h5{padding:0; margin:0; float:right; font-size:14px; font-weight:normal; color:#999;margin-top:1%; padding-top:3%; padding-right:2%;}
+.wx h2{ width:20%; float:right; margin-right:3%; color:#00afc7; font-size:15px;margin-top:20px;}
+.liebiao{ width:100%; clear:both; }
+.y{ width:100%; float:left; margin-top:7%; margin-left:2%;}
+.y img{ width:90%; padding-left:2.5%;}
+.miaoshu{ width:96%; margin-left:2%; clear:both; } 
+.miaoshu p{ font-size:14px; text-align:center; height:20px; line-height:1.2rem;}
+.zuobiao{ width:96%; margin-left:2%; margin-top:30%; background-color:#FFF; height:30px; }
+.zuobiao svg{ float:left; padding-top:1%;}
+.zuobiao p{ font-size:12px; color:#00afc7;  line-height:1.8rem;  margin-left:1%; float:left;}
+.zuobiao h1{ font-size:12px; float:right; width:30%;font-weight:normal;  line-height:2rem; color:#999;}
+

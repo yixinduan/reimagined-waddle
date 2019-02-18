@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>编辑个人信息</title>
+    <meta name="charset" content="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Cache-Control" content="must-revalidate,no-cache">
+	<meta name="application-name" content=>
+    <meta name="description" content=>
+    <meta name="keywords" content="">
+
+<style>
+a{text-decoration:none; color:#000;}
+body,h1,ul,li{list-style-type:none; padding:0; margin:0;}
+body{background:#F5F5F5; padding-bottom:54px; height:100%;}
+.con{
+	min-width:320px;
+	max-width:660px;
+	margin:0 auto;
+	height:100%;
+}
+header{
+	background:#fff none repeat scroll 0% 0%;
+	position:relative;
+	width:100%;
+	height:49px;
+	line-height:49px;
+	display:block;
+	}
+.left{
+	left:10px;
+	float:left;
+	margin-top:8px;	
+	}
+.left a{
+	display:inline-block;
+	min-width:36px;
+	text-align:center;
+	}
+.title{
+	color:#000;
+	font-weight:normal;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	font-size:18px;
+	padding-left:20px;
+	}
+.right{
+	margin-right:2%;
+	float:right;
+	}
+.right a{
+	display:inline-block;
+	min-width:36px;
+	text-align:center;
+	font-size:18px;
+	color:ff2d4b;
+	}
+.box{
+	background-image:url(../images/000.jpg);
+	background-size:100% 100%;
+	padding:15px 0 0;
+	margin-top:15px;
+}
+.box img{
+	border-radius:50%;
+	width:90px;
+	height:90px;
+	margin:0 auto;
+	display:block;
+}
+.box p{
+	text-align:center;
+	line-height:50px;
+}
+.box p a{
+	background:#ff2d4b;
+	color:#fff;
+	border-radius:20px;
+	padding:5px 20px;
+	}
+.nav{
+	width:100%;
+	margin:10px 0%;
+	border-radius:2px;
+	border:1px solid #DDD;
+	background:#fff;
+	overflow:hidden;
+	}
+.nav li{
+	border-bottom:1px solid #DDD;
+	padding:1rem 0px;
+	margin:0px 1rem;
+	overflow:hidden;
+	}
+.nav li:last-child{
+	border-bottom:0px none;
+}
+.nav{
+	display:block;
+	overflow:hidden;
+	line-height:31px;
+}
+.nav svg{
+	width:10%;
+	float:right;
+	margin-top:2%;
+}
+.nav span{
+	color:#000;
+	float:left;
+	margin-left:2%;
+	}
+.nav li em{
+	float:left;
+	font-style:normal;
+	color:#999;
+	margin-left:9%;
+	font-size:14px;
+	}
+#popchange{width:500px;padding:10px; border:solid 1px red;position:absolute;left:26%;top:100px; background:#fff; display:none; z-index:2}
+#popdiv p{border-bottom:solid 1px red}
+.name{
+	color:#ff2d4b;
+	border:medium none;
+	margin-left:10%;
+	font-size:16px;
+	vertical-align:text-top;
+	}
+.tuichu{
+	border-color:#ff2d4b;
+	background-color:#ff2d4b;
+	color:#fff;
+	width:94%;
+	display:block;
+	position:relative;
+	min-height:47px;
+	min-width:52px;
+	border:medium none;
+	margin:10px 3%;
+	font-size:16px;
+	font-weight:500;
+	
+}
+#btn{
+	background-color:#fff;
+	color:#ff2d4b;
+    border: none;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+	}
+#imgOne{
+	margin-left:18%;
+	margin-top:-20%;
+	opacity:0;
+	position:absolute;
+	height:60px;}
+</style>
+</head>
+
+<body>
+<div class="con">
+<header>
+  <div class="left">
+    <a href="dengluhou.html">
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3169" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><defs><style type="text/css"><![CDATA[
+
+]]></style></defs><path d="M629.376 160 330.624 467.968 330.624 467.968 288 512 330.624 555.968 330.688 555.968 629.376 863.936 672 819.968 373.312 512 672 204.032Z" p-id="3170"/></svg>
+    </a>
+  </div>
+      <div class="right">
+<input id="btn" type="button" value="编辑"/>
+  </div>
+  <h1 class="title">编辑个人信息</h1>
+
+</header>
+<div class="box">
+<form action="">  
+    <img id="imgPre" src="../images/b-8.jpg" style="display: block;" />      
+  
+     <input type="file" name="imgOne" id="imgOne" onchange="preImg(this.id,'imgPre');" value="选择头像"/> 
+</form>
+  <p>
+    <a href="#">设置背景</a>
+  </p>
+</div>
+<ul class="nav">
+
+  <li>
+    <a href="#" class="view"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="14" height="14" viewBox="0 0 32 32"><defs><style type="text/css"><![CDATA[
+
+]]></style></defs><g class="transform-group"><g transform="scale(0.03125, 0.03125)"><path d="M633.361447 510.516239 253.723194 890.25682 320.748276 957.179574 767.411612 510.516239 320.748276 63.852903 253.723194 130.775657Z" fill="#ff2d4b"></path></g></g></svg></a>
+    <span>昵称</span>
+<input class="name" type="text" onBlur="if(this.value==''){this.value='easona'}" value="Jackson Yee">
+  </li>
+
+  <li>
+    <a href="#" class="view"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="14" height="14" viewBox="0 0 32 32"><defs><style type="text/css"><![CDATA[
+
+]]></style></defs><g class="transform-group"><g transform="scale(0.03125, 0.03125)"><path d="M633.361447 510.516239 253.723194 890.25682 320.748276 957.179574 767.411612 510.516239 320.748276 63.852903 253.723194 130.775657Z" fill="#ff2d4b"></path></g></g></svg></a>
+    <span>性别</span>
+<input class="name" type="text" onBlur="if(this.value==''){this.value='女'}" value="男">
+    
+  </li>
+  <li>
+    <a href="#" class="view"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="14" height="14" viewBox="0 0 32 32"><defs><style type="text/css"><![CDATA[
+
+]]></style></defs><g class="transform-group"><g transform="scale(0.03125, 0.03125)"><path d="M633.361447 510.516239 253.723194 890.25682 320.748276 957.179574 767.411612 510.516239 320.748276 63.852903 253.723194 130.775657Z" fill="#ff2d4b"></path></g></g></svg> </a>
+    <span>住地</span>
+<input class="name" type="text" onBlur="if(this.value==''){this.value='唐山'}" value="唐山">
+   
+  </li>
+  <li>
+    <a href="#" class="view"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="14" height="14" viewBox="0 0 32 32"><defs><style type="text/css"><![CDATA[
+
+]]></style></defs><g class="transform-group"><g transform="scale(0.03125, 0.03125)"><path d="M633.361447 510.516239 253.723194 890.25682 320.748276 957.179574 767.411612 510.516239 320.748276 63.852903 253.723194 130.775657Z" fill="#ff2d4b"></path></g></g></svg></a>
+    <span>签名</span>
+<input class="name" type="text" onBlur="if(this.value==''){this.value='我我我最棒'}" value="我我我最棒">
+    
+  </li>
+</ul>
+
+<a href="gerenzhongxin.html"><button class="tuichu">退出登录</button></a>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script>
+window.onload = function () {
+var oDiv = document.getElementById("right");
+var oTxt = document.getElementById("name");
+var oBtn = document.getElementById("btn");
+
+
+oBtn.onclick = function () {
+oTxt.disabled = false;
+oBtn.value = "保存";
+
+
+this.onclick = function () {
+save();
+};
+};
+
+
+function save() {
+oTxt.disabled = true;
+oBtn.value = "编辑";
+}
+};
+</script>
+<script type="text/javascript"> 
+	function getFileUrl(sourceId) { 
+var url; 
+if (navigator.userAgent.indexOf("MSIE")>=1) { // IE 
+url = document.getElementById(sourceId).value; 
+} else if(navigator.userAgent.indexOf("Firefox")>0) { // Firefox 
+url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0)); 
+} else if(navigator.userAgent.indexOf("Chrome")>0) { // Chrome 
+url = window.URL.createObjectURL(document.getElementById(sourceId).files.item(0)); 
+} 
+return url; 
+} 
+function preImg(sourceId, targetId) {
+    var url = getFileUrl(sourceId);
+    var imgPre = document.getElementById(targetId);
+    imgPre.src = url;
+    alert(url);
+}
+</script>
+</body>
+</html>
